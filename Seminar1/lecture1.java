@@ -1,8 +1,8 @@
 package Seminars.Seminar1;
 
-import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Random;
+//import java.time.LocalDateTime;
+//import java.util.Arrays;
+//import java.util.Random;
 
 public class lecture1 {
     public static void main(String[] args) {
