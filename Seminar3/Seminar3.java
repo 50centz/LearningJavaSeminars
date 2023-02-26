@@ -69,21 +69,19 @@ public class Seminar3 {
         // list2.add("Плутон");
         // list2.add("Сатурн");
         // list2.add("Уран");
-        Integer count = 1;
+        int count = 1;
         System.out.println(list2);
-        for (int i = 0; i < list2.size()-1; i++) {
+        for (int i = 0; i < list2.size(); i++) {
+            count = 1;
             for (int j = i + 1; j < list2.size(); j++) {
-                System.out.println(list2.size());
                 if (list2.get(i).equals(list2.get(j))){
                     list2.remove(j);
+                    j--;
                     count += 1;
                 }
                 
             }
-            //System.out.printf("Планета %s повторяется %d раз\n", list2.get(i), count);
-            count = 1;
-
-
+            System.out.printf("Планета %s повторяется %d раз\n", list2.get(i), count);
         }
         System.out.println(list2);
 
